@@ -1,0 +1,86 @@
+body{
+  padding: 0;
+  margin: 10px;
+  background-color: yellow;
+  width: 100%;
+  height: 100%;
+  overflow  :scrolL;
+  overflow-x: hidden;
+}
+
+.container{
+  height: 100%;
+  width:100%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.App{
+
+  
+  top:5000%;
+} 
+.main{
+  width: 100%;
+  
+  top:5000%
+}
+.inner{
+    padding:0;
+  margin-top:500%;
+  top:5%;
+  left: 10px;
+}
+
+.inner h1{
+  font-size: 38px;
+  color: white;
+  font-weight: 700;
+ font-family: Comic Sans MS;
+  letter-spacing: 2px;
+
+}
+
+.inner h1 span{
+  color: rgb(0, 172, 248);
+  font-size: 40px;
+  text-shadow:2px 0px 2px #fff;
+  
+  margin-left:-3%;
+
+}
+
+#DisappearingTweet textarea{
+  border: 0;
+  width: 300px;
+  height: 45px;
+  padding: 0 20px;
+  margin: -17px 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  border-radius: 10px;
+  display: inline-block;
+  }
+#DisappearingTweet textarea::placeholder{
+color: rgba(211, 204, 204, 0.74);
+font-size:24px;
+margin:10px 0px 0px 0px;
+font-family: Comic Sans MS;
+}
+#DisappearingTweet textarea:focus,#DisappearingTweet button:focus{
+  outline: none;
+
+}
+#DisappearingTweet button{
+  height: 50px;
+  width: 80px;
+  border-radius: 20px;
+  border: 0;
+  margin: 5px;
+  background-color: rgb(19, 145, 223);
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: Comic Sans MS;
+  letter-spacing:1px;
+  color: rgb(255, 249, 249);
+}

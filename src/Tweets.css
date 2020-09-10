@@ -1,0 +1,16 @@
+
+.list{ 
+    color: #000;
+    width: 400px; 
+    background-color: #fff;
+    height: 85px;
+    margin:30px 5px 5px 5px;
+    border-radius: 10px;
+
+    display: inline-block;
+}
+
+.list p{
+  padding: 5px;
+  object-fit: cover;
+}

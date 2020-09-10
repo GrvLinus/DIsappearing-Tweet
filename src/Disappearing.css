@@ -1,0 +1,11 @@
+.double{
+    position: absolute;
+    top:-230%;
+    left:-5%;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    font-family: Courier New;
+    margin: 0px -20px;
+    text-shadow: -3px -3px 3px #000, 1px 1px 1px #ccc;
+}
